@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="stil.css">
+    </head>
+    <body>
+        
+        <form name="markets" method="POST" action="/submit">
+            <h1>Markets list</h1>
+
+            <fieldset>
+                <legend>Market details</legend>
+                <ul>
+                    <li>
+                        <label class="req">
+                            <div>Market name:</div>
+                            <input name="name" required autofocus>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="req">
+                            <div>Market id:</div>
+                            <input type="email" name="email" required>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <div>Team name</div>
+                            <input name="team1" placeholder="Team Name">
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <div>Type</div>
+                            <select name="type">
+                                <option value="20">20</option>
+                                <option value="80">80</option>
+                            </select>
+                        </label>
+                    </li>
+                    <li>
+                            <label>
+                                <div>tel</div>
+                                <input name="tel" type="tel">
+                            </label>
+                        </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Detalji</legend>
+
+                <ul>
+                    <li>
+                        <label class="req">
+                            <div>p1</div>
+                            <input type="password" name="pass" required>
+                        </label>
+                    </li>
+                    <li>
+                            <label class="req">
+                                <div>p2</div>
+                                <input type="password" name="pass2" required>
+                            </label>
+                        </li>
+                </ul>
+            </fieldset>
+
+            <div class="dugmici">
+                <input type="submit" value="Submit">
+                <input type="submit" id="zapamti" value="Zapamti">
+            </div>
+        </form>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
