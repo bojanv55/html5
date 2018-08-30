@@ -68,9 +68,53 @@
                 </ul>
             </fieldset>
 
+            <fieldset>
+                <legend>Detalji</legend>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>A</th>
+                            <th>B</th>
+                            <th>TOT</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A <input type="hidden" name="pc" value="c1"></td>
+                            <td><input type="number" data-price="100" name="qty" value="0" min="0" max="99" maxlength="2"></td>
+                            <td><output name="total" class="it_tot">0.00</output></td>
+                        </tr>
+                        <tr>
+                            <td>B <input type="hidden" name="pc" value="c2"></td>
+                            <td><input type="number" data-price="200" name="qty" value="0" min="0" max="99" maxlength="2"></td>
+                            <td><output name="total" class="it_tot">0.00</output></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Details</legend>
+                <ul>
+                    <li>
+                        <label>
+                            <div>cc</div>
+                            <input name="cc" pattern="[0-9]{13,16}" maxlength="16" required title="13-16 bez spejsa">
+                        </label>
+                    </li>
+                    <li>
+                            <label>
+                                <div>dat</div>
+                                <input name="dat" type="month" required value="2015-06" class="unstyled" >
+                            </label>
+                        </li>
+                </ul>
+            </fieldset>
+
             <div class="dugmici">
                 <input type="submit" value="Submit">
-                <input type="submit" id="zapamti" value="Zapamti">
+                <input type="submit" id="zapamti" value="Zapamti" formnovalidate formaction="/zapamti">
             </div>
         </form>
 

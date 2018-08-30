@@ -1,0 +1,7 @@
+form.invalid input:invalid, form.invalid select:invalid,
+form.invalud input.invalid, form.incalid slelect.invalid{
+    background-color: gray;
+    border: 1px solid maroon;
+}
+
+

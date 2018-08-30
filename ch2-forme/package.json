@@ -1,0 +1,14 @@
+{
+  "name": "ch2-forme",
+  "version": "1.0.0",
+  "description": "opis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "material-components-web": "^0.39.0"
+  }
+}
