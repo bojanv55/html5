@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" manifest="SomeOffline.appcache">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Naslov</title>
+        <link href="stil.css" rel="stylesheet"/>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.5/sockjs.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+        <script defer src="skripta.js"></script>
+        <script src="online.js"></script>
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Betradar ctrl</h1>
+        </header>
+        <main>
+            <div id="display"></div>
+            <button id="sl">listen</button>
+        </main>
+        <footer>
+            <p id="ftr">Some foot txt</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color:  gray;
+}
+
+.oboj{
+    width: 100px;
+    height: 100px;
+    background: rgba(170, 240, 0, 0.5);
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+#file1{
+    display: none;
+}

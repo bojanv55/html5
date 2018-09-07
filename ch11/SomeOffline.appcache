@@ -1,0 +1,19 @@
+CACHE MANIFEST
+#version 1.00.001
+#stranice
+index.html
+
+#skripte
+skripta.js
+
+#stilovi
+stil.css
+
+NETWORK:
+*
+
+FALLBACK:
+online.js offline.js
+
+SETTINGS:
+prefer-online

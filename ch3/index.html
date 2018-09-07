@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Naslov</title>
+        <link href="stil.css" rel="stylesheet"/>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script defer src="skripta.js"></script>
+    </head>
+    <body>
+        <header role="banner">
+            <h1>Betradar ctrl</h1>
+        </header>
+        <main>
+            <article>
+                <header>
+                    <h2>Some h2</h2>
+                    <p>Some date <time datetime="2018-01-01">01<sup>st</sup> January, and this is <mark>marked</mark> some text</time></p>
+                    <div>
+                        <output name="otp">Otpt</output>
+                    </div>
+                </header>
+            </article>
+
+            <div class="vevent">
+                <h2 class="summary">Some summary</h2>
+                <p>desc</p>
+                <time class="dtstart" datetime="2018-01-01" title="2018-01-01">Tuesday 1,1</time>
+            </div>
+
+            <form method="POST">
+                <fieldset>
+                    <legend>Somethng</legend>
+                    <label>
+                        Something:
+                        <input type="text" name="te" placeholder="plchldr" autofocus required/>
+                    </label>
+                    <label>
+                            Something2:
+                            <input type="text" name="te2" placeholder="plchldr2" required/>
+                        </label>
+                        <label>
+                            Mail:
+                            <input type="email" name="mail" required/>
+                        </label>
+                        <label>
+                                URL:
+                                <input type="url" name="mail" required/>
+                            </label>
+                            <label>
+                                    Search:
+                                    <input type="search" name="mail" required/>
+                                </label>
+                                <label>
+                                        Phone:
+                                        <input type="tel" name="mail" required/>
+                                    </label>
+                                    <label>
+                                            Number:
+                                            <input type="number" name="mail" required/>
+                                        </label>
+                                        <label>
+                                                Slide:
+                                                <input type="range" name="range" min="50" max="100"/>
+                                            </label>
+                                            <label>
+                                                    Clr:
+                                                    <input type="color" name="range" />
+                                                </label>
+                    <input type="image" name="img"/>
+                    <label>
+                        datum
+                        <input type="date" name="datum"/>
+                    </label>
+                    <label>
+                        datal
+                        <input id="fav" list="favC"/>
+                        <datalist id="favC">
+                            <option label="1" value="1"/>
+                            <option label="2" value="2"/>
+                        </datalist>
+                    </label>
+                    <progress value="0.25"></progress>
+                 <!--   <progress>indeterminate</progress> -->
+                    <meter min="5" max="70" value="28"/>
+                </fieldset>
+            </form>
+            <div contenteditable="true">
+                <strong>nesto</strong> je editable
+            </div>
+            <iframe id="pedss" src="../ch2/index.html"></iframe>
+            <button id="klika">Edit</button>
+        </main>
+        <footer>
+            <p>Some foot txt</p>
+        </footer>
+    </body>
+</html>

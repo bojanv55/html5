@@ -1,0 +1,51 @@
+.lc{
+    width: 28.6%;
+    float: left;
+    background-color: red;
+}
+
+.rc{
+    width: 71.4%;
+    float: left;
+    background-color: blue;
+}
+
+body{
+    margin: 0px;
+    font-size: 100%;
+}
+
+p{
+    font-size: 0.9em;
+}
+
+h1{
+    font-size: 2em;
+    font-family: "abz";
+}
+
+@font-face {
+    font-family: "abz";
+    src: url("ABeeZee-Regular.ttf") format("truetype");
+}
+
+img{
+    max-width: 100%;
+}
+
+.lcc{
+    border: 0.07em solid gray;
+    margin: 0.3em;
+    padding: 0.2em 0.3em 0.3em 0.4em;
+}
+
+@media (max-width: 480px){
+    .lc{
+        width: auto;
+        float: none;
+    }
+    .rc{
+        width: auto;
+        float: none;
+    }
+}
